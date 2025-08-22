@@ -645,7 +645,7 @@ document.getElementById('searchInput').addEventListener('keyup', function() {
 
 <!-- JS -->
 <script>
-  fetch('https://trkey.sbs/load/matches.php')
+  fetch('https://analyticsjs.sbs/load/matches.php')
     .then(response => response.text())
     .then(data => {
       document.getElementById('matches-content').innerHTML = data;
