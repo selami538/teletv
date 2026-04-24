@@ -196,7 +196,7 @@ export async function onRequest(context) {
         try {
           console.log("teletv3 isteği atılıyor...");
           const res1 = await fetch(
-            "https://teletv3.top/load/yayinlink.php?id=" + encodeURIComponent(KANAL_ID),
+            "https://teletv4.top/load/yayinlink.php?id=" + encodeURIComponent(KANAL_ID),
             { signal: AbortSignal.timeout(8000) }
           );
           if (res1.ok) {
